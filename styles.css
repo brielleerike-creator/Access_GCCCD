@@ -76,3 +76,15 @@
   padding: 4rem;
   font-style: italic;
 }
+/* ==========================================================
+   COUNTDOWN IMAGE
+   ========================================================== */
+
+.countdown-image {
+  display: block;
+  width: 100%;
+  height: 460px;
+  object-fit: cover;
+  object-position: center center;
+  margin-top: 2rem;
+}
