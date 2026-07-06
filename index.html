@@ -154,23 +154,46 @@
       <!-- END ROLE SECTION -->
 
 
-      <!-- ==========================================================
-      EDIT WITH CARE: COUNTDOWN EMBED
-      Only edit the iframe src if the countdown page URL changes.
-      ========================================================== -->
-      <section class="countdown-section" aria-labelledby="countdown-heading">
-        <h2 id="countdown-heading" class="sr-only">
-          Countdown to April 27, 2027 accessibility mandate
-        </h2>
+     <!-- ==========================================================
+EDIT THIS SECTION: CLEAN COUNTDOWN
+========================================================== -->
+<section class="clean-countdown" aria-labelledby="countdown-heading">
 
-        <div class="countdown-frame">
-          <iframe
-            src="https://brielleerike-creator.github.io/howmanydays/"
-            title="Countdown to April 27, 2027 accessibility mandate">
-          </iframe>
-        </div>
-      </section>
-      <!-- END COUNTDOWN SECTION -->
+  <div class="countdown-card">
+
+    <p class="eyebrow">April 27, 2027</p>
+
+    <h2 id="countdown-heading">
+      Countdown to the ADA Title II Digital Accessibility Deadline
+    </h2>
+
+    <div class="days-box" role="timer" aria-live="polite">
+      <span id="days-remaining">--</span>
+      <span>Days Remaining</span>
+    </div>
+
+  </div>
+
+  <!-- We'll add the image here next -->
+  <div class="countdown-image-placeholder">
+    Image coming in the next step.
+  </div>
+
+</section>
+
+<script>
+const targetDate = new Date("2027-04-27T00:00:00");
+
+function updateHomepageCountdown() {
+  const now = new Date();
+  const diff = targetDate - now;
+  const days = Math.max(0, Math.ceil(diff / 86400000));
+  document.getElementById("days-remaining").textContent = days;
+}
+
+updateHomepageCountdown();
+setInterval(updateHomepageCountdown, 60000);
+</script>
 
 
       <!-- ==========================================================
