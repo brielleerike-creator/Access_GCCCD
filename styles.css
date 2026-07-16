@@ -190,3 +190,71 @@ grid-template-columns:repeat(5,1fr);  gap:1.5rem;
   font-size:2rem;
   color:var(--ink);
 }
+/* ==========================================================
+   STUDENT ACCESSIBILITY SERVICES
+   ========================================================== */
+
+.student-support{
+  margin-top:2.5rem;
+  padding:2.75rem;
+  border-radius:var(--radius-lg);
+  background:var(--ink);
+  box-shadow:0 12px 24px rgba(6,31,69,.10);
+}
+
+.student-eyebrow{
+  color:var(--gold);
+}
+
+.student-support h2{
+  margin:.35rem 0 .75rem;
+  color:white;
+  font-size:clamp(2rem,4vw,3.2rem);
+}
+
+.student-section-intro{
+  max-width:760px;
+  margin-bottom:2rem;
+  color:rgba(255,255,255,.9);
+  font-size:1.1rem;
+}
+
+.student-card-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:2rem;
+}
+
+.student-card{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  min-height:240px;
+  padding:2rem;
+  background:white;
+  border-radius:18px;
+  text-decoration:none;
+  color:inherit;
+  transition:.2s ease;
+  box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.student-card:hover{
+  transform:translateY(-4px);
+}
+
+.student-card h3{
+  margin:0 0 1rem;
+  color:var(--ink);
+}
+
+.student-card p{
+  flex:1;
+  line-height:1.6;
+}
+
+.student-card .arrow{
+  margin-top:1.5rem;
+  font-size:2rem;
+  color:var(--ink);
+}
