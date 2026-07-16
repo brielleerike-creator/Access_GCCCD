@@ -123,3 +123,71 @@
   margin-top: 2rem;
 }
 .hero-brand span{color:var(--gold)}
+/* ==========================================================
+   FACULTY QUICK START
+   ========================================================== */
+
+.faculty-quick-start{
+  margin-top:2.5rem;
+  padding:2.75rem;
+  border-radius:var(--radius-lg);
+  background:#F4B223;
+  box-shadow:0 12px 24px rgba(6,31,69,.10);
+}
+
+.faculty-eyebrow{
+  color:#fff;
+}
+
+.faculty-quick-start h2{
+  margin:.35rem 0 .75rem;
+  color:var(--ink);
+  font-size:clamp(2rem,4vw,3.2rem);
+}
+
+.faculty-section-intro{
+  max-width:760px;
+  margin-bottom:2rem;
+  color:#183153;
+  font-size:1.1rem;
+}
+
+.faculty-card-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:1.5rem;
+}
+
+.faculty-card{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  min-height:250px;
+  padding:1.8rem;
+  background:#fff;
+  border-radius:18px;
+  text-decoration:none;
+  color:inherit;
+  transition:.2s ease;
+  box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.faculty-card:hover{
+  transform:translateY(-4px);
+}
+
+.faculty-card h3{
+  margin:0 0 1rem;
+  color:var(--ink);
+}
+
+.faculty-card p{
+  flex:1;
+  line-height:1.6;
+}
+
+.faculty-card .arrow{
+  margin-top:1.5rem;
+  font-size:2rem;
+  color:var(--ink);
+}
