@@ -517,3 +517,7 @@ grid-template-columns:repeat(5,1fr);  gap:1.5rem;
     grid-template-columns:1fr;
   }
 }
+/* Administrator banner crop */
+.admin-hero-image{
+  object-position:center 28%;
+}
