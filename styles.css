@@ -441,58 +441,79 @@ grid-template-columns:repeat(5,1fr);  gap:1.5rem;
     width:100%;
   }
 }
-<!-- ==========================================================
-ADMINISTRATOR LEADERSHIP RESOURCES
-========================================================== -->
-<section class="administrator-resources" aria-labelledby="admin-title">
+/* ==========================================================
+   ADMINISTRATOR LEADERSHIP RESOURCES
+   ========================================================== */
 
-  <p class="eyebrow administrator-eyebrow">Leadership Resources</p>
+.administrator-resources{
+  margin-top:2.5rem;
+  padding:2.75rem;
+  border-radius:var(--radius-lg);
+  background:#7B1E3A;
+  box-shadow:0 12px 24px rgba(6,31,69,.10);
+}
 
-  <h2 id="admin-title">
-    Build a culture of accessibility
-  </h2>
+.administrator-eyebrow{
+  color:var(--gold);
+}
 
-  <p class="administrator-intro">
-    Explore district leadership resources, statewide initiatives, and strategic tools that support institutional accountability and continuous improvement.
-  </p>
+.administrator-resources h2{
+  margin:.35rem 0 .75rem;
+  color:white;
+  font-size:clamp(2rem,4vw,3.2rem);
+}
 
-  <div class="administrator-card-grid">
+.administrator-intro{
+  max-width:760px;
+  margin-bottom:2rem;
+  color:rgba(255,255,255,.92);
+  font-size:1.1rem;
+}
 
-    <a class="administrator-card" href="#">
-      <h3>Meet the Access GCCCD Executive Sponsor</h3>
-      <span class="arrow" aria-hidden="true">→</span>
-    </a>
+.administrator-card-grid{
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  gap:1.25rem;
+}
 
-    <a
-      class="administrator-card"
-      href="https://cccaccessibility.org/acmm/acmm-overview"
-      target="_blank"
-      rel="noopener"
-    >
-      <h3>Learn about the ACMM</h3>
-      <span class="arrow" aria-hidden="true">→</span>
-    </a>
+.administrator-card{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  min-height:220px;
+  padding:1.6rem;
+  background:white;
+  border-radius:18px;
+  text-decoration:none;
+  color:inherit;
+  transition:.2s ease;
+  box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
 
-    <a
-      class="administrator-card"
-      href="https://cccaccessibility.org/"
-      target="_blank"
-      rel="noopener"
-    >
-      <h3>Connect with the CCC Accessibility Center</h3>
-      <span class="arrow" aria-hidden="true">→</span>
-    </a>
+.administrator-card:hover{
+  transform:translateY(-4px);
+}
 
-    <a class="administrator-card" href="#">
-      <h3>Get Involved</h3>
-      <span class="arrow" aria-hidden="true">→</span>
-    </a>
+.administrator-card h3{
+  margin:0;
+  color:var(--ink);
+  line-height:1.3;
+}
 
-    <a class="administrator-card" href="#">
-      <h3>Review the Roadmap</h3>
-      <span class="arrow" aria-hidden="true">→</span>
-    </a>
+.administrator-card .arrow{
+  margin-top:1.5rem;
+  font-size:2rem;
+  color:#7B1E3A;
+}
 
-  </div>
+@media(max-width:980px){
+  .administrator-card-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+}
 
-</section>
+@media(max-width:620px){
+  .administrator-card-grid{
+    grid-template-columns:1fr;
+  }
+}
