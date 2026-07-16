@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Faculty Resources | Access GCCCD</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <div class="page-shell">
+
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Grossmont-Cuyamaca Community College District home">
+        <span class="brand-mark" aria-hidden="true">
+          <span class="mark-g">G</span>
+          <span class="mark-c">C</span>
+        </span>
+
+        <span class="brand-text">
+          <span>Grossmont-Cuyamaca</span>
+          <span>Community College District</span>
+        </span>
+      </a>
+
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="roadmap.html">Roadmap</a>
+        <a href="resources.html">Resources</a>
+        <a href="events.html">Events</a>
+        <a href="champions.html">Champions</a>
+        <a href="support.html">Support</a>
+      </nav>
+
+      <a class="district-button" href="https://www.gcccd.edu/" target="_blank" rel="noopener">
+        District Website <span aria-hidden="true">↗</span>
+      </a>
+    </header>
+
+    <main id="main">
+
+      <section class="hero" aria-labelledby="faculty-title">
+        <p class="eyebrow hero-brand"><span>Access</span> GCCCD</p>
+
+        <h1 id="faculty-title">Faculty Resources</h1>
+
+        <div class="hero-image-wrap">
+          <img
+            class="hero-image"
+            src="images/accessibility-countdown-art.png"
+            alt="Students and faculty learning together in a college courtyard."
+          />
+
+          <p class="hero-image-caption">
+            Supporting faculty in creating accessible, engaging, and equitable learning experiences for every student.
+          </p>
+        </div>
+
+        <p class="hero-promise">
+          <strong>Faculty make accessibility possible.</strong>
+          Explore practical tools, professional learning, and support designed to help every student succeed.
+        </p>
+      </section>
+            <!-- ==========================================================
+      EDIT THIS SECTION: FACULTY QUICK START
+      ========================================================== -->
+      <section class="faculty-quick-start" aria-labelledby="quick-start-title">
+
+        <p class="eyebrow faculty-eyebrow">Faculty Quick Start</p>
+
+        <h2 id="quick-start-title">
+          Choose the support you need
+        </h2>
+
+        <p class="faculty-section-intro">
+          Use these starting points to find guidance, connect with colleagues, request support, or continue your professional learning.
+        </p>
+
+        <div class="faculty-card-grid">
+
+          <a class="faculty-card" href="#">
+            <h3>Canvas Guides</h3>
+            <p>
+              Find step-by-step guidance for creating accessible Canvas courses, pages, assignments, and media.
+            </p>
+            <span aria-hidden="true" class="arrow">→</span>
+          </a>
+
+          <a class="faculty-card" href="#">
+            <h3>Course Accessibility Task Force</h3>
+            <p>
+              Connect with faculty leaders advancing accessibility and sharing effective practices across the district.
+            </p>
+            <span aria-hidden="true" class="arrow">→</span>
+          </a>
+
+          <a class="faculty-card" href="#">
+            <h3>Meet with an Instructional Designer</h3>
+            <p>
+              Schedule individual support for Canvas, accessibility, course design, and instructional technology.
+            </p>
+            <span aria-hidden="true" class="arrow">→</span>
+          </a>
+
+          <a class="faculty-card" href="#">
+            <h3>Take an @ONE Course</h3>
+            <p>
+              Explore California Community Colleges professional learning in accessibility, online teaching, and course design.
+            </p>
+            <span aria-hidden="true" class="arrow">→</span>
+          </a>
+
+          <a class="faculty-card" href="#">
+            <h3>Accessibility Requests</h3>
+            <p>
+              Request accessibility reviews, captioning support, document remediation, or other district services.
+            </p>
+            <span aria-hidden="true" class="arrow">→</span>
+          </a>
+
+        </div>
+      </section>
+      <section class="clean-countdown" aria-labelledby="countdown-heading">
+
+  <div class="countdown-card">
+
+    <p class="eyebrow">April 27, 2027</p>
+
+    <h2 id="countdown-heading">
+      Countdown to the ADA Title II Digital Accessibility Deadline
+    </h2>
+
+    <div class="days-box" role="timer" aria-live="polite">
+      <span id="days-remaining">--</span>
+      <span>Days Remaining</span>
+    </div>
+
+  </div>
+
+
+
+</section>
+
+<script>
+const targetDate = new Date("2027-04-27T00:00:00");
+
+function updateHomepageCountdown() {
+  const now = new Date();
+  const diff = targetDate - now;
+  const days = Math.max(0, Math.ceil(diff / 86400000));
+  document.getElementById("days-remaining").textContent = days;
+}
+
+updateHomepageCountdown();
+setInterval(updateHomepageCountdown, 60000);
+</script>
+
+
+      <!-- ==========================================================
+      EDIT THIS SECTION: JOIN THE MOVEMENT
+      Safe edits:
+      - Heading
+      - Paragraph
+      - Button text
+      - Mailto links
+      ========================================================== -->
+      <section class="movement" aria-labelledby="movement-heading">
+        <h2 id="movement-heading">Join the Movement</h2>
+
+        <p>
+          Access GCCCD exists to coordinate, connect, curate, equip, and measure
+          accessibility work across the district.
+        </p>
+
+        <div class="movement-actions">
+          <a class="button button-primary" href="mailto:?subject=Join%20the%20Access%20GCCCD%20mailing%20list">
+            Join our mailing list
+          </a>
+
+          <a class="button button-secondary" href="mailto:?subject=Contact%20the%20Accessibility%20Program%20Lead">
+            Contact the Accessibility Program Lead
+          </a>
+        </div>
+      </section>
+      <!-- END JOIN THE MOVEMENT SECTION -->
+
+    </main>
+  </div>
+</body>
+</html>
