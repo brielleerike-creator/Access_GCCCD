@@ -244,17 +244,30 @@ grid-template-columns:repeat(5,1fr);  gap:1.5rem;
 }
 
 .student-card h3{
-  margin:0 0 1rem;
-  color:var(--ink);
+  margin:0;
+  text-align:center;
 }
 
-.student-card p{
-  flex:1;
-  line-height:1.6;
+.college-name{
+  color:#006B54;
+  font-size:2rem;
+  font-weight:800;
+  line-height:1.15;
+}
+
+.service-name{
+  margin:1rem 0 auto;
+  text-align:center;
+  color:var(--ink);
+  font-size:1.6rem;
+  font-weight:700;
+  line-height:1.3;
 }
 
 .student-card .arrow{
-  margin-top:1.5rem;
-  font-size:2rem;
-  color:var(--ink);
+  display:block;
+  text-align:center;
+  margin-top:2rem;
+  font-size:2.5rem;
+  color:#006B54;
 }
