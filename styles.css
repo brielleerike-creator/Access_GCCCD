@@ -154,15 +154,14 @@
 
 .faculty-card-grid{
   display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
-  gap:1.5rem;
+grid-template-columns:repeat(5,1fr);  gap:1.5rem;
 }
 
 .faculty-card{
   display:flex;
   flex-direction:column;
   justify-content:space-between;
-  min-height:250px;
+  min-height:230px;
   padding:1.8rem;
   background:#fff;
   border-radius:18px;
