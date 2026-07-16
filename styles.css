@@ -441,3 +441,58 @@ grid-template-columns:repeat(5,1fr);  gap:1.5rem;
     width:100%;
   }
 }
+<!-- ==========================================================
+ADMINISTRATOR LEADERSHIP RESOURCES
+========================================================== -->
+<section class="administrator-resources" aria-labelledby="admin-title">
+
+  <p class="eyebrow administrator-eyebrow">Leadership Resources</p>
+
+  <h2 id="admin-title">
+    Build a culture of accessibility
+  </h2>
+
+  <p class="administrator-intro">
+    Explore district leadership resources, statewide initiatives, and strategic tools that support institutional accountability and continuous improvement.
+  </p>
+
+  <div class="administrator-card-grid">
+
+    <a class="administrator-card" href="#">
+      <h3>Meet the Access GCCCD Executive Sponsor</h3>
+      <span class="arrow" aria-hidden="true">→</span>
+    </a>
+
+    <a
+      class="administrator-card"
+      href="https://cccaccessibility.org/acmm/acmm-overview"
+      target="_blank"
+      rel="noopener"
+    >
+      <h3>Learn about the ACMM</h3>
+      <span class="arrow" aria-hidden="true">→</span>
+    </a>
+
+    <a
+      class="administrator-card"
+      href="https://cccaccessibility.org/"
+      target="_blank"
+      rel="noopener"
+    >
+      <h3>Connect with the CCC Accessibility Center</h3>
+      <span class="arrow" aria-hidden="true">→</span>
+    </a>
+
+    <a class="administrator-card" href="#">
+      <h3>Get Involved</h3>
+      <span class="arrow" aria-hidden="true">→</span>
+    </a>
+
+    <a class="administrator-card" href="#">
+      <h3>Review the Roadmap</h3>
+      <span class="arrow" aria-hidden="true">→</span>
+    </a>
+
+  </div>
+
+</section>
