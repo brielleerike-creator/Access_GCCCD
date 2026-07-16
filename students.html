@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Resources | Access GCCCD</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <div class="page-shell">
+
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Grossmont-Cuyamaca Community College District home">
+        <span class="brand-mark" aria-hidden="true">
+          <span class="mark-g">G</span>
+          <span class="mark-c">C</span>
+        </span>
+
+        <span class="brand-text">
+          <span>Grossmont-Cuyamaca</span>
+          <span>Community College District</span>
+        </span>
+      </a>
+
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="roadmap.html">Roadmap</a>
+        <a href="resources.html">Resources</a>
+        <a href="events.html">Events</a>
+        <a href="champions.html">Champions</a>
+        <a href="support.html">Support</a>
+      </nav>
+
+      <a class="district-button" href="https://www.gcccd.edu/" target="_blank" rel="noopener">
+        District Website <span aria-hidden="true">↗</span>
+      </a>
+    </header>
+
+    <main id="main">
+
+      <section class="hero" aria-labelledby="faculty-title">
+        <p class="eyebrow hero-brand"><span>Access</span> GCCCD</p>
+
+<h1 id="student-title">Student Resources</h1>
+
+        <div class="hero-image-wrap">
+          <img
+            class="hero-image"
+            src="images/accessibility-countdown-art.png"
+            alt="Students and faculty learning together in a college courtyard."
+          />
+
+          <p class="hero-image-caption">
+Supporting students in accessing the learning environments, technologies, and services they need to succeed.          </p>
+        </div>
+
+        <p class="hero-promise">
+   <strong>We're here to empower every student to learn, participate, and thrive.</strong>
+Connect with the resources, accommodations, and support available to help you succeed.
+        </p>
+      </section>
+<!-- ==========================================================
+EDIT THIS SECTION: STUDENT ACCESSIBILITY SERVICES
+========================================================== -->
+<section class="student-support" aria-labelledby="student-support-title">
+
+  <p class="eyebrow student-eyebrow">Accessibility Services</p>
+
+  <h2 id="student-support-title">
+    Find support at your college
+  </h2>
+
+  <p class="student-section-intro">
+    Choose your college to connect with accessibility services, accommodations, counseling, assistive technology, and other support.
+  </p>
+
+  <div class="student-card-grid">
+
+    <a
+      class="student-card"
+      href="https://www.grossmont.edu/student-support/accessibility-resource-center/"
+      target="_blank"
+      rel="noopener"
+    >
+      <h3>Grossmont College Accessibility Resource Center</h3>
+      <p>
+        Connect with accessibility counselors, request accommodations, and explore support available to Grossmont College students.
+      </p>
+      <span aria-hidden="true" class="arrow">→</span>
+    </a>
+
+    <a
+      class="student-card"
+      href="https://www.cuyamaca.edu/student-support/additional-support-and-assistance-programs/dsp-s/index.php"
+      target="_blank"
+      rel="noopener"
+    >
+      <h3>Cuyamaca College Disabled Students Programs and Services (DSPS)</h3>
+      <p>
+        Learn about accommodations, assistive technology, counseling, and accessibility services available to Cuyamaca College students.
+      </p>
+      <span aria-hidden="true" class="arrow">→</span>
+    </a>
+
+  </div>
+</section>     
+
+<script>
+const targetDate = new Date("2027-04-27T00:00:00");
+
+function updateHomepageCountdown() {
+  const now = new Date();
+  const diff = targetDate - now;
+  const days = Math.max(0, Math.ceil(diff / 86400000));
+  document.getElementById("days-remaining").textContent = days;
+}
+
+updateHomepageCountdown();
+setInterval(updateHomepageCountdown, 60000);
+</script>
+
+
+      <!-- ==========================================================
+      EDIT THIS SECTION: JOIN THE MOVEMENT
+      Safe edits:
+      - Heading
+      - Paragraph
+      - Button text
+      - Mailto links
+      ========================================================== -->
+      <section class="movement" aria-labelledby="movement-heading">
+        <h2 id="movement-heading">Join the Movement</h2>
+
+        <p>
+          Access GCCCD exists to coordinate, connect, curate, equip, and measure
+          accessibility work across the district.
+        </p>
+
+        <div class="movement-actions">
+          <a class="button button-primary" href="mailto:?subject=Join%20the%20Access%20GCCCD%20mailing%20list">
+            Join our mailing list
+          </a>
+
+          <a class="button button-secondary" href="mailto:?subject=Contact%20the%20Accessibility%20Program%20Lead">
+            Contact the Accessibility Program Lead
+          </a>
+        </div>
+      </section>
+      <!-- END JOIN THE MOVEMENT SECTION -->
+
+    </main>
+  </div>
+</body>
+</html>
